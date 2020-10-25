@@ -5,25 +5,173 @@
     color: #ffffff;
 }
 
+@font-face{
+  font-family: 'Yu Gothic';
+  src: url(../font/yugothib.ttf);
+}
+
+
 header {
     background: linear-gradient(rgb(157,51,47,0.7),rgb(157,51,47,0.7)),url(../images/bg_header.png);
     background-size: cover;
     background-position: center center;
     min-height: 100vh;
     max-height: 999px;
-    height: 800px;
+    height: 700px;
     margin: auto;
+    width: 100%;
 
 }
 
 .jumbo{
-    background: url(../images/bg_konten.jpg);
-    background-size: cover;
-    background-position: center center;
-    min-height: 100vh;
-    max-height: 999px;
-    margin: auto;
+  background: url(../images/bg_konten.jpg);
+  background-size: cover;
+  background-position: center center;
+  min-height: 100vh;
+  max-height: 999px;
+  margin: auto;
+  height: 700px;
+  width: 100%;
 }
+
+
+.ikon{
+	width: 70px;
+	height: 70px;
+	background: #b32c27;
+  border-radius: 100%;
+  position: absolute;
+  margin-left: 50px;
+  margin-top: 50px;
+}
+
+.ikon i{
+  position: absolute;
+  margin-top: 12px;
+  margin-left: 14px;
+}
+
+
+.grid {
+  margin-top: 2.5cm;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.grid .grid-box {
+	text-align: center;
+	font-size: 300%;
+	border: 1px solid #ce322d;
+  transition: all 0.15s ease-in-out;
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+
+.grid > div:hover {
+	background: #e53732;
+	position: relative;
+}
+
+
+.slash{
+  color: #e53732;
+  font-size: 85pt;
+  font-weight: bold;
+  position: absolute;
+  left: 7cm;
+  margin-top: 400px;
+}
+
+.jumbo table td{
+  position: absolute;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  width: 220px;
+  margin-top: 560px;
+  border-color: white;
+  left: 7cm;
+  font-size: 10pt;
+  word-spacing: 50px;
+}
+
+.teks-15{
+  font-family: 'Fjalla One' ;
+  position: absolute;
+  font-size: 12pt;
+  left: 320px;
+  margin-top: 448px;
+  letter-spacing: 3px;
+}
+
+.teks-16{
+  font-family: 'Fjalla One';
+  position: absolute;
+  font-size: 50pt;
+  letter-spacing: 5px;
+  left: 318px;
+  margin-top: 465px;
+}
+
+.teks-17{
+  font-family: Yu Gothic;
+  position: absolute;
+  font-size: 11pt;
+  margin-top: 465px;
+  letter-spacing: 2px;
+  left: 950px;
+  font-weight: bold;
+}
+
+.teks-18{
+  font-family: 'Fjalla One';
+  position: absolute;
+  font-size: 22pt;
+  margin-top: 490px;
+  letter-spacing: 5px;
+  left: 950px;
+}
+
+.teks-19{
+  font-family: Yu Gothic;
+  position: absolute;
+  font-size: 9pt;
+  margin-top: 540px;
+  letter-spacing: 2px;
+  left: 950px;
+  font-weight: lighters;
+}
+
+.teks-20{
+  font-family: 'Fjalla One';
+  font-size: 30pt;
+  letter-spacing: 3px;
+}
+
+.teks-21{
+  font-family: 'Yu Gothic';
+  font-size: 10pt;
+}
+
+.teks-22{
+  font-family: 'Yu Gothic';
+  font-size: 12pt;
+  position: relative;
+  left: 850px;
+  top: 50px;
+}
+
+.teks-23 a{
+  color: white;
+  font-family: 'Yu Gothic';
+  text-decoration: none;
+  position: relative;
+  left: 3cm;
+  padding-right: 50px;
+  font-size: 10pt;
+  padding-top: 25px;
+  font-weight: lighter;
+}
+
 
 .tengah{
     list-style: none;  
@@ -34,39 +182,54 @@ header {
 
 .tgh-1{
     color: #ffffff;
-    font-size: 300pt;
-    line-height: 305px;
+    font-size: 270pt;
+    line-height: 260px;
+
 }
 
 .tgh-2{
     color: #ffffff;
-    font-size: 80pt;
-    line-height: 100px;
+    font-size: 70pt;
+    top: 100px;
+    line-height: 85px;
 
 }
 
 .tgh-3{
-    padding-top: 200px;
+    padding-top: 80px;
     margin-left: 280px;
     padding-bottom: 20px;
     color: #ffffff;
+    font-family: 'Yu Gothoc';
+    font-size: 12pt;
 }
 
 .tgh-4{
     margin-left: 250px;
+    padding-top: 100px;
     color: #ffffff;
     font-size: 8pt;
-    font-family: 'YuGothic Medium';
+    font-family: 'Yu Gothic';
+}
+
+.tgh-5{
+  font-family: 'logisoso';
+  font-size: 8pt;
+  position: relative;
+  top: 560px;
+  letter-spacing: 2px;
+  margin-left: 1270px;
 }
 
 
 .teks-1{
     color: #ffffff;
     position: absolute;
-    margin-left: 100px;
-    line-height: 50px;
+    margin-left: 130px;
+    line-height: 40px;
     font-family: 'logisoso',sans-serif;
     font-size: 35pt;
+    margin-top: 70px;
 }
 
 .teks-2{
@@ -79,7 +242,7 @@ header {
 }
 
 .teks-3{
-  font-family: 'Yu Gothic';
+  font-family:'Yu Gothic';
   font-size: 12pt;
   position: absolute;
   left: 273px;
@@ -87,7 +250,7 @@ header {
 }
 
 .teks-4{
-  font-family: 'Yu Gothic';
+  font-family:'Yu Gothic';
   position: absolute;
   font-size: 18pt;
   font-weight: bold;
@@ -96,7 +259,7 @@ header {
   margin-top: 400px ;
 }
 .teks-5{
-  font-family: 'Yu Gothic';
+  font-family:'Yu Gothic';
   position: absolute;
   font-size: 10pt;
   left: 7cm;
@@ -113,7 +276,7 @@ header {
 }
 
 .teks-7{
-  font-family: 'Yu Gothic';
+  font-family: Yu Gothic;
   font-size: 12pt;
   position: absolute;
   left: 285px;
@@ -131,7 +294,7 @@ header {
 }
 
 .teks-11{
-  font-family: 'Yu Gothic';
+  font-family: Yu Gothic;
   position: absolute;
   font-size: 10pt;
   left: 7cm;
@@ -165,6 +328,7 @@ header {
   position: absolute;
   right: 5cm;
   height: 1cm;
+  display: flexbox;
 }
 
 .row a{
@@ -201,8 +365,8 @@ header {
 }
 
 .about img{
-  width: 600px;
-  height: 450px;
+  max-width: 600px;
+  height: auto;
   position: absolute;
   right: 0;
   margin-top: 120px;
@@ -226,7 +390,7 @@ header {
   left: 0;
   height: 4px;
   width: 350px;
-  background: tomato;
+  background: #e53732;
   transition: 0.5s ease-in-out;
   border-radius: 4px;
   margin-bottom: 50px;
@@ -240,18 +404,28 @@ header {
   margin-top: 630px;
 }
 
-.teks-9 ul{
-  font-family: 'YuGothic';
-  display: inline-block;
-  display: flex;
+.teks-9{
+  font-family: Yu Gothic;
   position: absolute;
   margin-top: 660 ;
   font-size: 10pt;
-  left: 10px;
+  left: 300px;
 }
 
-.teks-9 ul li{
-  padding-left: 275px;
+.teks-24{
+  font-family: Yu Gothic;
+  position: absolute;
+  margin-top: 660 ;
+  font-size: 10pt;
+  left: 635px;
+}
+
+.teks-25{
+  font-family: Yu Gothic;
+  position: absolute;
+  margin-top: 660 ;
+  font-size: 10pt;
+  left: 968px;
 }
 
 .icon{
@@ -367,16 +541,19 @@ th .fa{
 section{
     background-color: #222222;
     height: 19cm;
+    width: 100%;
 }
 
 .footer-2{
   background-color: #222222;
   height: 4cm;
+  width: 100%;
 }
 
 footer{
     background-color:#e53732;
     height: 1.3cm;
+    width: 100%;
 }
 
 .footer-3{
@@ -448,20 +625,17 @@ Nav Styles
   overflow: hidden;
   overflow-y: auto;
   height: 100%;
+  width: 100%;
 }
-nav {
-  text-align: left;
-  margin-left: 25%;
-}
+
 nav a {
   position: relative;
   text-decoration: none;
-  color: #6ecddd;
-  font-size: 2em;
   display: inline-block;
   margin-top: 1.25em;
   transition: color 0.2s ease-in-out;
   letter-spacing: 1px;
+  left: 15cm;
 }
 nav a:before {
   content: '';
@@ -476,7 +650,7 @@ nav a:hover {
   color: white;
 }
 nav a:hover:before {
-  height: 100%;
+  height: 50%;
 }
 
 /**
@@ -500,7 +674,318 @@ Animations
   transform: scale(1);
 }
 
-  
-  
- 
+@-webkit-keyframes bounce-arrow {
+  0%{
+    transform: translateY(0);
+  }
+  50%{
+    transform: translateY(10px);
+  }
+  100%{
+    transform: translateY(0px);
+  }
+}
 
+@-moz-keyframes bounce-arrow {
+  0%{
+    transform: translateY(0);
+  }
+  50%{
+    transform: translateY(10px);
+  }
+  100%{
+    transform: translateY(0px);
+  }
+}
+
+@keyframes bounce-arrow {
+  0%{
+    transform: translateY(0);
+  }
+  50%{
+    transform: translateY(10px);
+  }
+  100%{
+    transform: translateY(0px);
+  }
+}
+
+.arrow {
+  background-image: url(../images/arrow.png);
+  background-repeat: no-repeat;
+  width: 25px;
+  height: 100px;
+  position: relative;
+  top: 550px;
+  left: 1270px;
+
+  -webkit-animation: bounce-arrow 2s infinite ease-in-out;
+  -moz-animation:    bounce-arrow 2s infinite ease-in-out;
+  -o-animation:      bounce-arrow 2s infinite ease-in-out;
+  animation:         bounce-arrow 2s infinite ease-in-out;
+}
+
+@media (min-width : 360px) and (max-width : 768px){
+  .tgh-5{
+    top: 520px;
+    letter-spacing: 2px;
+    margin-left: 650px;
+  }
+  .arrow {
+    top: 500px;
+    left: 650px;
+  }
+
+  .tgh-1{
+    font-size: 200pt;
+  }
+  .tgh-2{
+    font-size: 60pt;
+    line-height: 65px;
+    margin-top: 35px;
+  }
+
+  .tgh-3{
+    margin-left: 2cm;
+    font-size: 10pt;
+  }
+
+
+  .tgh-4{
+    margin-left: 1cm;
+    font-size: 10pt;
+  }
+
+  .teks-15{
+    margin-top: 500px;
+    font-size: 10pt;
+    left: 100px;
+  }
+
+  .teks-16{
+    font-size: 30pt;
+    left: 100px;
+    margin-top: 510px;
+  }
+
+  .teks-17{
+    left: 500px;
+    margin-top: 500px;
+  }
+
+  .teks-18{
+    left: 500px;
+    margin-top: 525px;
+    size: 70%;
+    font-size: 22px;
+  }
+
+  .teks-19{
+    left: 500px;
+    margin-top: 560px;
+  }
+
+  .slash{
+    font-size: 75px;
+    left: 60px;
+    margin-top: 470px;
+  }
+
+  .jumbo table td{
+    width: 160px;
+    margin-top: 570px;
+    left: 100px;
+    font-size: 8pt;
+    word-spacing: 20px;
+  }
+
+  .content .marker{
+    width: 200px;
+    margin-bottom: 53px;
+  }
+
+  .content a{
+    color: #6b6b6b;
+    text-decoration: none;
+    position: relative;
+    padding-left: 80px;
+    padding-right: 80px;
+    font-size: 10pt;
+
+}
+
+  .about img{
+    max-width: 400px;
+    height: auto;
+    position: absolute;
+    right: 0;
+    margin-top: 150px;
+  }
+
+  .teks-2{
+    font-size: 30pt;
+    letter-spacing: 7px;
+    left: 100px;
+    margin-top: 235px;
+  }
+
+  .teks-3{
+    left: 100px;
+    font-size: 10pt;
+    margin-top: 220px;
+  }
+
+  .teks-4{
+    left: 100px;
+    font-size: 12pt;
+  }
+
+  .teks-5{
+    left: 100px;
+    font-size: 12pt;
+  }
+
+  .content-2 table td{
+    margin-top: 710px;
+    left: 100px;
+  }
+
+  .line-2{
+    left: 100px;
+  }
+
+  .teks-7{
+    left: 120px;
+  }
+
+  .teks-6{
+    left: 120px;
+  }
+
+  .icon{
+    left: 50px;
+  }
+  
+  .icon img{
+    padding-right: 0px;
+  }
+  
+  .icon-2{
+    left: 257px;
+  }
+  
+  .icon-3{
+    left: 511px;
+  }
+
+  .teks-8{
+    word-spacing: 200px;
+    left: 80px;
+  }
+
+  .teks-9{
+    left: 70px;
+  }
+  
+  .teks-24{
+    left: 330px;
+  }
+  
+  .teks-25{
+    left: 585px;
+  }
+
+  .teks-10{
+    left: 120px;
+  }
+
+  
+  .teks-11{
+    font-size: 8pt;
+    left: 50px;
+  }
+
+  .footer-3 a{
+    left: 50px;
+    padding-right: 30px;
+  }
+
+  .teks-12{
+    right: 50px;
+  }
+
+
+  button{
+    left: 180px;
+    margin: 45px 2px;
+    padding: 10px 40px;
+  }
+
+  .table{
+    width: 300px;
+    left: 100px;
+  }
+
+  .kolom{
+    width: 500px; 
+    font-size: 10pt; 
+    font-weight: lighter;
+    position: absolute;
+    line-height: 40px;
+  }
+  
+  th .fa{
+    position: absolute;
+    left: 550px;
+    margin-top: 10px;
+  }
+
+  .teks-13{
+    left: 10px;
+    font-size: 10pt;
+  }
+
+  .teks-14{
+    left: 280px;
+    font-size: 9pt;
+  }
+
+  .row{
+    right: 15px;
+  }
+
+  .row a{
+    text-decoration: none;
+    color: white;
+    font-size: 9pt;
+    right: 0;
+  }
+  
+  .btn-4{
+    background: #b32c27;
+    position: relative;
+    margin-right: 2px;
+    line-height: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  
+  .btn-5{
+    background: #b32c27;
+    position: relative;
+    line-height: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .case img{
+    height: 200px;
+    width: 100%;
+  }
+
+  .teks-22{
+    left: 300px;
+    font-size: 10pt;
+  }
+
+}
